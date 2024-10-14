@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: burlywood;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(78, 21, 21);
+    color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+    margin: 20px;
+}
+header ul li{
+    margin: 10px 30px;
+    list-style: none;
+    font-size: large;
+}
+header ul li:hover{
+    color: brown;
+}
+header h1{
+    margin-top: 15px;
+}
+
+#banner{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/31/09/57/coffee-3120750_1280.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* content of website */
+.row{
+    width: 100%;
+    height: 400px;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.col{
+    width: 150px;
+    height: 200px;
+    background-color: maroon;
+    border: 4px solid whitesmoke;
+}
